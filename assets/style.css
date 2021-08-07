@@ -637,11 +637,19 @@ span {
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+    margin: 0 -15px;
 }
 
 .logosItem {
+    padding: 0 15px;
     margin-bottom: 80px;
     cursor: pointer;
+}
+
+.logosImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .section--map {
@@ -777,6 +785,7 @@ span {
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
 }
 
 .footerCol {
@@ -814,6 +823,10 @@ span {
 }
 
 .sectionInnerMedia {
+    display: none;
+}
+
+.section--contacts {
     display: none;
 }
 
@@ -912,9 +925,195 @@ span {
     .worksCol {
         width: 50%;
     }
-
+    
+    .googleMap {
+        padding-bottom: 75%;
+    }
+    
+    .footerCol {
+        width: 100%;
+    }
+    
+    .footer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .footerLogo {
+        margin-bottom: 40px;
+    }
+    
+    .colTitle {
+        margin-bottom: 40px;
+    }
+    
 }
 
-/*
+@media (max-width: 770px) {
+    
+    .introText {
+        font-size: 65px;
+    }
+    
+    .imac {
+        width: 80%;
+        right: 95%;
+        bottom: -10%;
+    }
+    
+    .serviceBlock {
+        width: 33%;
+        padding: 40px 0;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .blockTextSame {
+        padding: 10px;
+        padding-bottom: 25px;
+    }
+    
+    .serviceBlockMediaOn {
+        width: 75%;
+    }
+    
+   .missBlock {
+        width: 100%;
+        margin: 0 30px;
+    }
+    
+    .missBorder {
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+    
+     .googleMap {
+        padding-bottom: 95%;
+    }
+    
+    .footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 
-*/
+@media (max-width: 575px) {
+    
+    .introInner {
+        top: 50%;
+        left: 10%;
+    }
+    
+    .introText {
+        font-size: 42px;
+    }
+    
+    .imac {
+        width: 100%;
+        right: 10%;
+        bottom: 90%;
+    }
+    
+    .logos {
+        flex-wrap: wrap;
+    }
+    
+    .logosItem {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    .sectionInnerMedia {
+        display: none;
+    }
+    
+    .serviceBlockMedia {
+        display: block;
+    }
+    
+    .serviceBlock {
+        width: 100%;
+    }
+    
+    .missHeader {
+        font-size: 25px;
+    }
+    
+    .missBlock {
+        width: 100%;
+        margin: 0 10px;
+    }
+    
+    .missImg {
+        max-width: 105%;
+    }
+    
+    .missBorder {
+        margin-top: 30px;
+        margin-bottom: 70px;
+        margin-right: 50px;
+    }
+    
+    .contacts {
+        display: none;
+    }
+    
+    .reviews, .container {
+        padding: 0 10px;
+    }
+    
+    .reviewsItem {
+        padding-left: 0;
+    }
+    
+    .reviewsImg {
+        position: static;
+        margin-bottom: 20px;
+    }
+    
+    .reviewsText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .reviewsName {
+        font-size: 16px;
+    }
+    
+    .reviewsJob {
+        font-size: 12px;
+    }
+    
+    .googleMap {
+        padding-bottom: 150%;
+    }
+    
+    .section--contacts {
+        display: block;
+    }
+    
+    .contactsMedia {
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 60px;
+        padding-right: 10px;
+        padding-bottom: 60px;
+        padding-left: 10px;
+    }
+    
+    .contTitle {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    
+    .footImg {
+        width: 100px;
+    }
+    
+    .colTitle {
+        font-size: 10px;
+    }
+}
