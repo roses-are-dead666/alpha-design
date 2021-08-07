@@ -154,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     animation-delay: .4s;
+    
 }
 
 
@@ -1002,17 +1003,25 @@ span {
     
     .introInner {
         top: 50%;
-        left: 10%;
+        left: 5%;
     }
     
     .introText {
         font-size: 42px;
     }
     
+    .text {
+        font-size: 14px;
+    }
+    
     .imac {
         width: 100%;
         right: 10%;
         bottom: 90%;
+    }
+    
+    .worksCol {
+        width: 100%;
     }
     
     .logos {
